@@ -1,0 +1,16 @@
+newmtl brain
+Kd 0.000000 0.000000 0.000000
+illum 1
+map_Kd K_name_dummy.png
+
+newmtl m0
+Kd 0.000000 0.000000 0.000000
+illum 1
+map_Kd K_new_name.png
+map_d K_new_name.png
+
+newmtl m1
+Kd 0.000000 0.000000 0.000000
+illum 1
+map_Kd K_new_name_eye.png
+map_d K_new_name_eye.png
