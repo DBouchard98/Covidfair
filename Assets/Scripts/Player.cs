@@ -25,9 +25,9 @@ public class Player : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
 
         if (vertical + horizontal != 0)
-            anim.SetBool("Run", true);
+            anim.SetBool("walking", true);
         else
-            anim.SetBool("Run", false);
+            anim.SetBool("walking", false);
 
         // Move Forward/Backward
         if (vertical != 0)
